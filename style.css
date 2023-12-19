@@ -12,7 +12,7 @@
   font-family: "poppins", sans-serif;
 }
 .jumbotron{
-  background: url(img/11.JPG) no-repeat center center;
+  background: url(/img/11.JPG) no-repeat center center;
   background-size: cover;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
