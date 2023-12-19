@@ -1,0 +1,218 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,400;0,700;1,500&family=Poppins:wght@100;500;700&family=Roboto+Slab:wght@700&display=swap");
+/* #0f0b63 */
+/* #3933b0 */
+/* root */
+:root {
+  --primary: #0a4aa3;
+  --secondary: #e8ea59;
+  --third: #9d9b97;
+}
+* {
+  font-family: "poppins", sans-serif;
+}
+.jumbotron{
+  background: url(/img/11.JPG) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  object-fit: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin-top: -8em;
+}
+.costumNavbar .navbar-brand img {
+  height: 100px;
+  width: 100px;
+  margin-right: 2em;
+}
+.costumNavbar .navbar-brand span {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.costumSec h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.costumSec span {
+  color: var(--third);
+}
+.costumSec p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1rem;
+}
+.costumSec a {
+  display: inline-block;
+  color: #fff;
+  background-color: var(--primary);
+  text-decoration: none;
+  border-radius: 2em;
+  padding: 0.3em 2em;
+}
+.costumAbt {
+display: block;
+position: relative;
+}
+
+.abtCon img {
+  width: 20vmax;
+  display: flex;
+  margin: auto;
+  margin-top:-4rem;
+}
+.citter img {
+  margin-left: -1em;
+  width: 30vmax;
+  border-radius: 10px;
+}
+.slider{
+  border-radius: 20px;
+}
+
+
+/* responsive */
+ 
+@media (max-width: 992px) { 
+  .jumbotron{
+  background: url(/img/11.JPG) no-repeat center center;
+  background-size: cover;
+  text-shadow: 1px 1px 1px #000;
+  object-fit: cover;
+  padding-top: 50%;
+  margin-top: -45%;
+  }
+  .abtCon{
+    display: flex;
+    position: relative;
+  }
+  .abtCon img {
+    width: 25vmax;
+    display: flex;
+    margin: auto;
+    margin-top:-2rem;
+    margin-left: 3em;
+  }
+  .citter img {
+    width: 30vmax;
+    border-radius: 10px;
+  }
+  .cardFlex .card{
+    display: flex;
+    width: 120%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardFlex .card .card-text{
+    font-size: 0.8rem;
+  }
+  .slider{
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+
+}
+@media (max-width: 767px) {
+  .abtCon{
+    display: block;
+    position: relative;
+  }
+  .abtCon img {
+    width: 25vmax;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .citter img {
+    width: 60vmax;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    border-radius: 30px;
+    margin: auto;
+  }
+  .sliderW{
+  width: 30vmax;
+  }
+  .listCard{
+    width: 50vmax;
+    margin: auto;
+  }
+  .cardFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vmax;
+    margin: auto;
+   
+  }
+}
+@media (max-width: 462px) {
+  .costumNavbar .navbar-brand img {
+    height: 50px;
+    width: 50px;
+    margin-right: 0.5em;
+  }
+  .costumNavbar .navbar-brand span {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .jumbotron{
+    background: url(/img/11.JPG) no-repeat center center;
+    background-size: cover;
+    text-shadow: 1px 1px 1px #000;
+    object-fit: cover;
+    padding-top: 80%;
+    margin-top: -75%;
+    }
+    .citter img {
+      width: 50vmax;
+      border-radius: 10px;
+    }
+    .slider{
+      border-radius: 30px;
+      margin: auto;
+    }
+    .sliderW{
+    width: 50vmax;
+    }
+    .listCard{
+      width: 50vmax;
+      margin: auto;
+    }
+    .cardFlex{
+      width: 50vmax;
+      margin: auto;
+      margin-top: -70px;
+      margin-left: 2rem;
+    }
+
+    .formCitter{
+      height: 50vmax;
+    }
+}
+@media (max-width: 462px) {
+  .jumbotron{
+    background: url(/img/11.JPG) no-repeat center center;
+    background-size: cover;
+    text-shadow: 1px 1px 1px #000;
+    object-fit: cover;
+    padding-top: 90%;
+    margin-top: -86%;
+    }
+    .cardFlex{
+      width: 50vmax;
+      margin: auto;
+      margin-top: -70px;
+    margin-right: 3rem;
+    }
+}
