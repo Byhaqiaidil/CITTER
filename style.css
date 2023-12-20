@@ -216,3 +216,28 @@ position: relative;
     margin-right: 3rem;
     }
 }
+
+@media (max-width: 462px) {
+  .jumbotron{
+    background: url(img/11.JPG) no-repeat center center;
+    background-size: cover;
+    text-shadow: 1px 1px 1px #000;
+    object-fit: cover;
+    padding-top: 90%;
+    margin-top: -86%;
+    }
+    .citter img {
+      width: 40vmax;
+      border-radius: 10px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cardFlex{
+      width: 40vmax;
+      margin: auto;
+      margin-top: -70px;
+    margin-right: 3rem;
+    }
+}
